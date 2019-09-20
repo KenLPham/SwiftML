@@ -41,7 +41,6 @@ import Accelerate
  
  - todo: pruning
  */
-@available(swift, introduced: 5.0)
 open class PTNeuralNetwork: NSObject {
     public typealias Input = [Float]
     public typealias Weights = [Float]
@@ -87,8 +86,6 @@ open class PTNeuralNetwork: NSObject {
             
             aW.append(weights)
         }
-        
-        print(aW)
         
         let matrix: [vDSP_Length] = s.map({ vDSP_Length($0) })
         
@@ -263,9 +260,6 @@ open class PTNeuralNetwork: NSObject {
     private func save (_ weights: [Weights], _ bias: [Bias]) {
         self.allWeights = weights
         self.allBias = bias
-        
-        
-        ClientData.client().saveNetworkData(weights: weights, bias: bias)
     }
     
     private func backprop (input ip: Input, results r: [Output], expected e: Output) -> (weights: [Weights], bias: [Bias]) {
