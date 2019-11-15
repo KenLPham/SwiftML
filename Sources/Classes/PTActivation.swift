@@ -1,6 +1,6 @@
 //
 //  PTActivation.swift
-//  MobileMind
+//  SwiftML
 //
 //  Created by Ken Pham on 6/21/19.
 //  Copyright © 2019 PhezTech. All rights reserved.

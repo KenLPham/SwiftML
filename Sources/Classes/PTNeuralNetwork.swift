@@ -1,6 +1,6 @@
 //
 //  PTNeuralNetwork.swift
-//  MobileMind
+//  SwiftML
 //
 //  Created by Ken Pham on 6/22/19.
 //  Copyright © 2019 PhezTech. All rights reserved.
