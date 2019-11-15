@@ -41,7 +41,10 @@ import Accelerate
  
  - todo: pruning
  */
-open class PTNeuralNetwork: NSObject {
+
+/**
+ */
+open public class PTNeuralNetwork: NSObject {
     public typealias Input = [Float]
     public typealias Weights = [Float]
     public typealias Bias = [Float]
@@ -64,12 +67,13 @@ open class PTNeuralNetwork: NSObject {
     }
     
     /// Xavier Initialization (Only use for tanh)
-    func xavier (size s: Float) -> Float {
+    public class func xavier (size s: Float) -> Float {
         return Float.random(in: 0...1) * sqrt(1/s)
     }
     
+    /// - todo: figure out what i meant by implement
     /// - todo: implement
-    public convenience init (size s: [Int], bias b: [Bias], activation f: PTActivationFunction) {
+    convenience init (size s: [Int], bias b: [Bias], activation f: PTActivationFunction) {
         var aW: [Weights] = []
         
         for i in 1..<(s.count-1) {
