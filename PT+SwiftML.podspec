@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.module_name       = "SwiftML"
     s.name              = "PT+SwiftML"
-    s.version           = "0.1"
+    s.version           = "0.1.1"
     s.summary           = "Create and train neural networks on device"
     s.homepage          = "https://github.com/pheztech/"
     s.license           = { :type => "MIT", :file => "LICENSE.md" }

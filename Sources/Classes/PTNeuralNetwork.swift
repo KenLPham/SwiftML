@@ -44,7 +44,7 @@ import Accelerate
 
 /**
  */
-open public class PTNeuralNetwork: NSObject {
+open class PTNeuralNetwork: NSObject {
     public typealias Input = [Float]
     public typealias Weights = [Float]
     public typealias Bias = [Float]
