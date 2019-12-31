@@ -1,0 +1,9 @@
+# https://docs.travis-ci.com/user/languages/objective-c/
+
+os: osx
+language: swift
+xcode_project: SwiftML_Test.xcodeproj # path to your xcodeproj folder
+xcode_scheme: SwiftML_Test
+xcode_destination: platform=iOS Simulator,OS=11.0,name=iPhone 7
+
+podfile: ../../
