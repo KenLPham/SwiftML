@@ -1,6 +1,6 @@
 # SwiftML
 
-[![CI Status](https://img.shields.io/travis/KenLPham/SwiftML.svg?style=flat)](https://travis-ci.org/KenLPham/SwiftML)
+[![Build Status](https://travis-ci.org/pheztech/SwiftML.svg?branch=master)](https://travis-ci.org/pheztech/SwiftML)
 [![Version](https://img.shields.io/cocoapods/v/SwiftML.svg?style=flat)](https://cocoapods.org/pods/SwiftML)
 [![License](https://img.shields.io/cocoapods/l/SwiftML.svg?style=flat)](https://cocoapods.org/pods/SwiftML)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftML.svg?style=flat)](https://cocoapods.org/pods/SwiftML)
